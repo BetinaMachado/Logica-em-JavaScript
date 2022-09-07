@@ -9,7 +9,7 @@
 // Escreva uma programa que receba uma temperatura e, em seguida, mostre no console a atividade apropriada para essa 
 // temperatura.
 
-let temp = 15
+let temp = 30
 
 if (temp >= 26){
     console.log("Sugerimos a atividade de natação.")

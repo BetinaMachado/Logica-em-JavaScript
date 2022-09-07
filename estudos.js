@@ -95,3 +95,41 @@ if (imc > 40) {
 } else {
     console.log('De acordo com seus dados a classificação é de Magreza')
 }
+
+
+/* Crie um programa que recebe uma lista/vetor de números inteiros; Seu programa deve alterar a lista de modo que
+o maior número fique na primeira posição dela.*/
+
+let arr = [885.9, 984.9, 444.9, 528.9, 528.9, 10000];
+
+function b ( arr ) {
+    let num = 0
+
+    for (let index = 0; index < arr.length; index++) {
+
+        if ( arr[index] > num ) {
+            num = arr[index]
+        }
+    }
+
+    const b = arr.indexOf(num)
+
+    arr.splice(b, 1)
+    arr.unshift(num)
+
+    return console.log(arr)
+}
+
+b ( [3, 2, 6, 1, 9, -2, 5, 2, 9])
+
+let frutasComA = {nome: "Fruta com A", list:["Acerola", "Abacaxi", "Abacate"]};
+let frutasComM = {nome: "Fruta com M", list:["Maracujá", "Melão"]};
+function compara(array1, array2) {
+    let diff = Math.abs(array1.list.length - array2.list.length);
+    if (array1.list.length > array2.list.length){
+        console.log(`${array1.nome} é maior que ${array2.nome} tendo ${diff} elemento(s) a mais.`);
+    }else {
+        console.log(`${array2.nome} é maior que ${array1.nome} tendo ${diff} elemento(s) a mais.`);
+    }
+}
+compara(frutasComA, frutasComM);
