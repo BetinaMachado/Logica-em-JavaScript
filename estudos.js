@@ -133,3 +133,26 @@ function compara(array1, array2) {
     }
 }
 compara(frutasComA, frutasComM);
+
+
+
+/*1. escreva um loop while com usando como condição uma variável número ser menor que o número 15, 
+use qualquer nome para a variável. Dentro do while faça uma soma de 2 em 2 e também faça o console.log do 
+valor da variável e um frase poética.*/
+
+let par = 0
+
+while(par < 15) {
+let soma = 0
+soma = soma + 2
+console.log(soma, "O amor é uma flor roxa")
+par++
+}
+
+// 2. escreva um for que execute um código 20x. Nesse código, faça 2 cálculos matemáticos e faça o console.log 
+// do resultado desses dois cálculos.
+
+
+for() 
+
+execute código 20x, que o code faça dois cálculos matemáticos e faça o console.log desses dois cálculos
