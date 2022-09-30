@@ -130,5 +130,3 @@ for (let i = 0; i < dadosPessoas[3].length; i++) {
     }
 }
 console.log(`i) A pessoa de menor IMC é ${pessoaMenorImc} e seu IMC é ${menorImc}.`)
-
-

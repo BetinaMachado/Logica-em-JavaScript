@@ -156,3 +156,16 @@ par++
 for() 
 
 execute código 20x, que o code faça dois cálculos matemáticos e faça o console.log desses dois cálculos
+
+/*
+  > Maior que
+  < Menor que
+  >= Maior igual que
+  <= Menor igual que
+  == igual a  (vê apenas o valor)
+  === idêntico (ve o valor e o tipo)
+  != Diferente de
+  !== Não identico
+  && = e/and
+  || = ou/or
+*/
